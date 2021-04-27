@@ -1,0 +1,499 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    word-break: break-all;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+* p {
+    font-size: 20px;
+    line-height: 1.6;
+     margin: 0 0 1.5em;
+    clear: inherit !important;
+}
+* h2{
+   font-size: 2rem;
+    font-family: 'Play', sans-serif;
+    line-height: 1.3;
+    margin-bottom: .6em;
+}
+* h3 {
+    margin-top: 1.9em;
+    margin-bottom: .6em;
+    line-height: 1.3;
+    font-size: 1.75rem;
+    font-family: 'Play', sans-serif;
+}
+* blockquote {
+    font-style: italic;
+    position: relative;
+    margin: 2em 0;
+    padding-left: 30px;
+    border-left: 2px solid;
+    border-color: #e2223f !important;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.flexconteiner {
+    display: flex;
+    align-items: center;
+}
+.title {
+    width: 277.35px;
+}
+.ger {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    color: #e2223f;
+}
+.subtitle {
+    font-size: 1em;
+    color: #999;
+    line-height: 1.5;
+}
+.messengers{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    width: 160px;
+    margin: 0px 40px;
+}
+
+.facebook {
+    border: 1px solid black;
+    width: 1.7em;
+    height: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #34518d;
+    color: white;
+}
+.vk {
+     border: 1px solid black;
+    width: 1.7em;
+    height: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #3a5d85;
+    color: white;
+}
+.telegram {
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#1f80af;
+}
+.instagram {
+     border: 1px solid black;
+    width: 1.7em;
+    height: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #c32975;
+    color: white; 
+}
+.pinterest {
+     border: 1px solid black;
+    width: 1.7em;
+    height: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #8c0615;
+    color: white;
+}
+
+.wrapmenu { 
+    margin: 0 0 0px 0 ;
+}
+
+.menu {
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    position: relative;
+    display: flex;
+}
+
+.menu a{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid silver;
+    display: inline-block;
+    height: 40px;
+    line-height: 55px;
+}
+.menu a:hover{
+   
+}
+
+.menu ul{
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    display: none;
+    padding: 0px;
+    width: 200px;
+    background: #fff;
+    box-shadow: 0 2px 45px rgba(178,165,105,.19);
+    padding: 5px 10px;
+    z-index: 2;
+}
+.menu li:hover ul{
+    display: block;
+}
+.line{
+     margin: 0 0 0 15px;
+}
+
+.menu2 {
+    display: flex;
+}
+.menu2 li{
+    list-style: none;
+    position: relative;
+    display: flex;
+}
+
+.menu2 a{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid silver;
+    display: block;
+     height: 40px;
+    line-height: 55px;
+}
+.menu2 a:hover{
+   
+}
+
+.menu2 ul {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    display: none;
+    background: #fff;
+    box-shadow: 0 2px 45px rgba(178,165,105,.19);
+    width: 330px;
+    padding: 5px 10px;
+    z-index: 1;
+}
+.menu2 li:hover ul{
+    display: block;
+}
+.line{
+     margin: 0 0 0 15px;
+}
+.wrpt-container {
+    display: block;
+    width: 700px;
+}
+.entry-title {
+    line-height: 1.3;
+    font-size: 2.5rem;
+    margin: 0 0 .8em;
+    font-family: 'Play', sans-serif;
+    font-weight: 600
+}
+
+.img1 {
+    float: left;
+margin-right: 1.5em;
+}
+
+.img_box {
+    font-size: 20px;
+    line-height: 1.6;
+    height: 280px;
+}
+.wrpt-container strong {
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 1.6;
+    display: block;
+    margin: 0px 0px 1.5em;
+}
+ /* Якори */
+
+.list {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+#swich {
+    font-size: 20px;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    padding:  15px 30px;
+}
+.number {
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+.number a {
+    text-decoration: none;
+}
+.level-1 {
+    color: color: #e2223f;
+}
+.level-1 a {
+   border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #e2223f;
+    
+}
+.level-2 {
+    margin-top: .3em;
+    margin-bottom: .7em;
+    margin-left: 30px;
+    font-size: .98em;
+    color: #e2223f;
+}
+.level-2 a {
+     color: #e2223f;
+}
+.level-2 a:hover {
+    color: #63121e; 
+}
+.num:before {
+    content: "1. "
+}
+ .num2:before {
+    content: "2. "
+}
+  .num3:before {
+    content: "3. "
+}
+ .num4:before {
+    content: "4. "
+}
+.num5:before {
+    content: "5. "
+}
+.num10:before {
+    content: "1.1. "
+}
+.num11:before {
+    content: "1.2."
+}
+.num12:before {
+    content: "1.3. "
+}
+.num13:before {
+    content: "1.4. "
+}
+.num14:before {
+    content: "1.5. "
+}
+.num15:before {
+    content: "2.1. "
+}
+.num16:before {
+    content: "2.2. "
+}
+.num17:before {
+    content: "2.3. "
+}
+.num18:before {
+    content: "2.4. "
+}
+.num19:before {
+    content: "3.1. "
+}
+.num20:before {
+    content: "3.2. "
+}
+.num21:before {
+    content: "3.3. "
+}
+.num22:before {
+    content: "3.4. "
+}  
+/* конец  */
+.img2 {
+    float: right;
+   margin-left: 3em;
+}
+.img3 {
+    float: left;
+margin-right: 1.5em;
+}
+.img4 {
+    float: right;
+    margin-left: 1.5em;
+}
+.list2 {
+    list-style: none;
+    font-size: 20px;
+    counter-reset: number;
+}   
+.ol2 {
+    
+}
+.ol2 li{
+    counter-increment: section;
+    display: block;
+}
+.ol2 li:before {
+    content: counter(section);
+   border: 2px solid #592D12; 
+    display: inline-block;
+    border-radius: 50%;
+    padding: 14px 19px;
+     margin: 2em 10px 0 0;
+    font-weight: 600;
+    font-family: sans-serif; 
+}
+.list3 {
+    list-style: none;
+    font-size: 20px;
+    counter-reset: number;
+}   
+.ol3 li{
+     counter-increment: number;
+    display: block;
+}
+.ol3 li:before {
+    content: counter(number);
+    border: 2px solid #592D12; 
+    display: inline-block;
+    border-radius: 50%;
+    padding: 14px 19px;
+     margin: 2em 10px 0 0;
+    font-weight: 600;
+    font-family: sans-serif; 
+}
+
+.list4 {
+    list-style: none;
+    font-size: 20px;
+    counter-reset: number;
+}   
+.ol4 li{
+     counter-increment: number;
+    display: block;
+}
+.ol4 li:before {
+    content: counter(number);
+    border: 2px solid #592D12; 
+    display: inline-block;
+    border-radius: 50%;
+    padding: 14px 19px;
+    margin:  0 10px 2em; 
+    font-weight: 600;
+    font-family: sans-serif; 
+}
+.list5 {
+    list-style: none;
+    font-size: 20px;
+    counter-reset: number;
+}   
+.ol5 li{
+     counter-increment: number;
+    display: block;
+}
+.ol5 li:before {
+    content: counter(number);
+    border: 2px solid #592D12; 
+    display: inline-block;
+    border-radius: 50%;
+    padding: 14px 19px;
+     margin: 0 10px 3em 0;
+    font-weight: 600;
+    font-family: sans-serif; 
+}
+.under {
+   margin: 2em 0px 0px 0px; 
+}
+
+
+
+@media screen and (max-width: 990px) {
+    .flexconteiner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+    .title {
+        width: auto;
+    }
+    .ger {
+        margin: 0px;
+    }
+    .messengers {
+        display: flex;
+        
+    }
+    .wrapmenu {
+        display: none;
+        
+    }
+    
+@media screen and (max-width: 760px) {
+    .entry-title {
+           font-size: 2rem;
+           line-height: 1.3;
+           margin: 0 0 .8em;
+        }
+}
+    
+    }
+    
+    @media screen and (max-width: 570px) {
+        .entry-title {
+            font-size: 1.25rem;
+            line-height: 1.1;
+            margin: 0 0 .8em;
+        }
+    .wrpt-container {
+    display: block;
+    width: 330px;
+}
+        p{
+            padding: 0px 0 0 35px;
+        }
+        h2 {
+            padding: 0px 0 0 35px;
+        }
+        h3{
+            padding: 0px 0 0 35px;
+        }
+        strong {
+            padding: 0px 0 0 35px;
+        }
+        h1 {
+            padding: 0px 0 0 35px;
+        }
+        img {
+          width:300px ;
+          height: 200px;
+            margin: 0px;
+        }
+        li {
+            padding: 0px 20px 0 20px;
+        }
+        .img4 {
+            margin: 0px;
+        }
+    }
